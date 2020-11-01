@@ -13,13 +13,14 @@
         <form id="sectionFormulario" name="formulario" method="POST" data-netlify="true" target="_blank" netlify>
           <div class="row">
             <div class="col-md-6 mb-3">
-              <label for="firstName">Nombre de pila</label>
+              <label for="firstName">Nombre de pila
               <input
+                name="firstName"
                 type="text"
                 class="form-control"
                 id="firstName"
                 required
-              />
+              /></label>
               <div class="invalid-feedback">
                 Valid first name is required.
               </div>
@@ -28,6 +29,7 @@
               <label for="lastName">Apellido
               <input
                 type="text"
+                name="lastName"
                 class="form-control"
                 id="lastName"
                 placeholder=""
